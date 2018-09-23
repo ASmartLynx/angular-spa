@@ -1,0 +1,15 @@
+<div class="scroll">
+    <h2>{{title}}</h2> 
+</div>
+    <div id="input-div"><img src="/src/app/img/icons/idea.png" alt="filter" id="zoom"><input type="text" placeholder="Введите улицу" [(ngModel)]="streetFilter" (keyup)="filter()"></div>
+    <div class="container-items">
+       <a [routerLink]="'/apartment/' + apartment.id" *ngFor="let apartment of apartments">
+        <div class="item">
+           
+           <img [src]="apartment.photo" [alt]="apartment.name"> 
+            <h3>{{apartment.name}}</h3>
+            <p>Улица: {{apartment.street}}</p>
+            <p>Дом: {{apartment.house}}</p> 
+             
+        </div></a>
+</div>

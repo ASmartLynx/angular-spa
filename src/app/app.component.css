@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(247, 247, 247, 1);
+    background: linear-gradient(135deg, rgba(247, 247, 247, 1) 0%, rgba(235, 235, 235, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ebebeb', GradientType=1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo,
+img {
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #ed174f;
+    position: relative;
+}
+
+a::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ed174f;
+    content: "";
+    transition: width 0.5s ease-out;
+}
+
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 25px;
+}
+
+
+/* Медиа запрос */
+
+@media (max-width: 530px) {
+    header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .nav {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .menu li {
+        list-style: none;
+        font-size: 20px;
+        padding: 5px;
+        margin: 0;
+        display: block;
+        
+    }
+    .logo,
+    img {
+        width: 150px;
+    }
+}

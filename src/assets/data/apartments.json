@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1
+        , "name": "Русский модерн"
+        , "photo": "https://jzrcsx.net/wp-content/uploads/images/2016/10/dizajn-zagorodnogo-kottedzha.jpg"
+        , "street": "Улица Пушкина"
+        , "house": "№139"
+        , "floor": "13 из 20"
+        , "room": "3"
+        , "square": "56 м"
+    }
+    , {
+        "id": 2
+        , "name": "Четыре солнца"
+        , "photo": "http://svoimy-rukami.ru/wp-content/uploads/2017/03/Дизайн-квартиры-студии-фото-15.jpg"
+        , "street": "Панфиловский проспект"
+        , "house": "№239"
+        , "floor": "23 из 23"
+        , "room": "1"
+        , "square": "106 м"
+    }
+    , {
+        "id": 3
+        , "name": "Итальянский квартал"
+        , "photo": "https://wallpaper.feodosia.net/media/wallpaper/interer/202046-1920x1200.jpg"
+        , "street": "Улица Победы"
+        , "house": "№72"
+        , "floor": "1 из 17"
+        , "room": "2"
+        , "square": "76 м"
+    }
+    , {
+        "id": 4
+        , "name": "Долина Сетунь"
+        , "photo": "https://dekoriko.ru/images/article/orig/2018/01/stil-vysokih-tehnologij-hi-tech-v-interere-kvartiry.jpg"
+        , "street": "Улица Победы"
+        , "house": "№139"
+        , "floor": "7 из 17"
+        , "room": "3"
+        , "square": "88 м"
+    }
+    , {
+        "id": 5
+        , "name": "Изумруд"
+        , "photo": "https://roomidea.ru/wp-content/uploads/2017/07/78685c0856e411251b84faa5bbd040ff.jpeg"
+        , "street": "Улица Пушкина"
+        , "house": "№115"
+        , "floor": "13 из 25"
+        , "room": "2"
+        , "square": "47 м"
+    }
+    , {
+        "id": 6
+        , "name": "Триумф"
+        , "photo": "http://www.stroy-podskazka.ru/images/article/orig/2018/01/tonkosti-dizajna-gostinoj-ploshchadyu-16-kv-m-gramotnoe-razgranichenie-prostranstva-1.jpg"
+        , "street": "Панфиловский проспект"
+        , "house": "№72"
+        , "floor": "11 из 17"
+        , "room": "1"
+        , "square": "99 м"
+    }
+    , {
+        "id": 7
+        , "name": "Студенческая"
+        , "photo": "https://coolhouses.ru/files/images/1.2015/intereryi-kvartir-foto-ot-jam-architects-13.jpg"
+        , "street": "Московский проспект"
+        , "house": "№115"
+        , "floor": "9 из 9"
+        , "room": "2"
+        , "square": "261 м"
+    }
+    , {
+        "id": 8
+        , "name": "Шоколад"
+        , "photo": "https://rego-remont38.ru/assets/images/30-01-2018/odksyw-kv1.jpg"
+        , "street": "Панфиловский проспект"
+        , "house": "№218"
+        , "floor": "3 из 23"
+        , "room": "1"
+        , "square": "95 м"
+    }
+    , {
+        "id": 9
+        , "name": "Панорама"
+        , "photo": "http://www.myhome.ru/uploads/public/idea/1/2962/portfolio/529/1920x1080resize_portfolio529_22_1335263313.jpg"
+        , "street": "Улица Победы"
+        , "house": "№399"
+        , "floor": "19 из 21"
+        , "room": "2"
+        , "square": "79 м"
+    }
+    , {
+        "id": 10
+        , "name": "Светлый простор"
+        , "photo": "https://sakhexpo.ru/img/3015berz2.jpg"
+        , "street": "Московский проспект"
+        , "house": "№72"
+        , "floor": "21 из 25"
+        , "room": "3"
+        , "square": "80 м"
+    }
+]

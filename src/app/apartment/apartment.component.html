@@ -1,0 +1,30 @@
+<div *ngIf="apartment">
+    <div class="scroll">
+        <h2>{{apartment.name}}</h2> </div>
+    <a routerLink="/list">
+        <div id="button">Назад</div>
+    </a>
+    <div class="img-block"> <img [src]="apartment.photo" [alt]="apartment.name"> </div>
+    <div class="description">
+        <div class="description-item">
+            <div class="title">Улица</div>
+            <div class="text">{{apartment.street}}</div>
+        </div>
+        <div class="description-item">
+            <div class="title">Дом</div>
+            <div class="text">{{apartment.house}}</div>
+        </div>
+        <div class="description-item">
+            <div class="title">Этаж</div>
+            <div class="text">{{apartment.floor}}</div>
+        </div>
+        <div class="description-item">
+            <div class="title">Кол-во комнат</div>
+            <div class="text">{{apartment.room}}</div>
+        </div>
+        <div class="description-item">
+            <div class="title">Площадь</div>
+            <div class="text">{{apartment.square}}<sup>2</sup></div>
+        </div>
+    </div>
+</div>

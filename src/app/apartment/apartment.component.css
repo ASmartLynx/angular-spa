@@ -1,0 +1,91 @@
+h2 {
+    color: #ed174f;
+    font-size: 35px;
+    padding: 25px;
+    text-align: center;
+}
+
+.scroll {
+    overflow: hidden;
+    height: 270px;
+    background: url(../img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+/* Ссылка Назад */
+
+#button {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+}
+
+#button:hover {
+    color: #fff;
+    background: #ed174f;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: #ed174f;
+}
+
+
+/* Картинка */
+
+.img-block {
+    width: 100%;
+    text-align: center;
+}
+
+.img-block img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Блок с описанием */
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #ed174f;
+    color: #ececec;
+    padding: 2% 0;
+}
+
+.title {
+    font-size: 15px;
+}
+
+.text {
+    font-size: 25px;
+}
+/* медиа запрос */
+@media (max-width: 530px) {
+    .description {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: #ed174f;
+        color: #ececec;
+        
+    }
+    .description-item {
+        margin-bottom: 5%;
+    }
+    .title {
+        font-size: 15px;
+        text-align: center;
+    }
+    .text {
+        font-size: 25px;
+        text-align: center;
+    }
+}
